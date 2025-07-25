@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amare-soluções</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="favicon/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="favicon/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
+    <link rel="manifest" href="favicon/site.webmanifest">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
+<body>
+    <section id="initial-screen">
+        <audio id="a-1" src="audio/theme.mp3" loop preload="auto"></audio>
+        <div class="title">
+            <h1>Amare</h1>
+            <h1>Soluções</h1>
+        </div>
+        <button class="start">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd"
+                    d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z"
+                    clip-rule="evenodd" />
+            </svg>
+
+        </button>
+        <div class="c-quantity">
+            <h3>Quantos jogadores participarão?</h3>
+            <div class="options">
+                <button selected="false">2</button>
+                <button selected="false">3</button>
+                <button selected="false">4</button>
+            </div>
+        </div>
+    </section>
+    <section id="game-screen">
+        <div class="question-card">
+            <audio id="a-2" src="audio/question.mp3" loop preload="auto"></audio>
+            <audio id="a-3" src="audio/correct.mp3" preload="auto"></audio>
+            <audio id="a-4" src="audio/wrong.mp3" preload="auto"></audio>
+            <p class="sentence">
+
+            </p>
+            <form id="answer-form">
+                <input id="answer-area" placeholder="Digite a resposta aqui" type="text" autocomplete="off">
+                <button type="submit" class="check">Responder</button>
+            </form>
+            <p class="feedback">
+            </p>
+        </div>
+        <article class="article-help">
+            <button>X</button>
+            <div class="rule-explanation">
+                <h2>Como jogar?</h2>
+                <p>No seu turno, uma pergunta aparecerá na tela. Você terá alguns segundos para respondê-la. Se você
+                    errar, a vez passa para o próximo jogador. Se acertar, você pode clicar no dado para descobrir
+                    quantas casas pode avançar no tabuleiro.
+                </p>
+            </div>
+            <div class="rule-explanation">
+                <h2>Como Responder?</h2>
+                <p>Cada pergunta virá em um "card" que mostra o enunciado, um exemplo de como deve ser a resposta e o
+                    campo para você digitar. Preste muita atenção nestes detalhes:</p>
+                <ul>
+                    <li>Para respostas de <strong>uma ou duas palavras</strong>, a <strong>ortografia correta é
+                            fundamental</strong>.</li>
+                    <li>Se a resposta incluir uma <strong>unidade de medida</strong> (como "g/L", "mol", "mol/L"),
+                        certifique-se de
+                        deixar
+                        um <strong>espaço entre o número e a unidade</strong> (exemplo: "2 mol/L", não "2mol/L").</li>
+                    <li><strong>Em caso de qualquer dúvida</strong> sobre o formato da resposta, <strong>fale
+                            imediatamente com o
+                            organizador(a)</strong> do jogo. Ele(a) poderá te ajudar a preencher o campo corretamente.
+                    </li>
+                </ul>
+            </div>
+            <div class="rule-explanation">
+                <h2>Casas Especiais</h2>
+                <p>Se você cair em uma <strong>casa escura</strong>, o jogo ativará um dos quatro efeitos especiais.
+                    Fique atento e
+                    tente memorizar o que cada casa faz, pois outros jogadores (e você novamente) podem cair nelas no
+                    futuro!</p>
+                <ul>
+                    <li>
+                        <h3>Avance uma casa</h3>
+                        <p>Você move seu peão uma casa para frente.</p>
+                    </li>
+                    <li>
+                        <h3>Volte uma casa</h3>
+                        <p>Você move seu peão uma casa para trás.</p>
+                    </li>
+                    <li>
+                        <h3>Volte ao Início</h3>
+                        <p>Você retorna para a casa de partida (Casa 1).</p>
+                    </li>
+                    <li>
+                        <h3>Passe a Vez</h3>
+                        <p>Você não jogará na próxima rodada, e a vez passará direto para o próximo jogador.</p>
+                    </li>
+                </ul>
+            </div>
+        </article>
+        <p class="advice">Aviso inicial</p>
+        <audio src="audio/jump.mp3" id="a-5" preload="auto"></audio>
+        <audio src="audio/retroceed.mp3" id="a-6" preload="auto"></audio>
+        <audio src="audio/backtilstart.mp3" id="a-7" preload="auto"></audio>
+        <audio src="audio/victory.mp3" id="a-8" preload="auto"></audio>
+        <div class="board-container">
+            <div class="board"></div>
+        </div>
+        <div class="wrapper">
+            <div class="dice"></div>
+            <div class="help"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                </svg>
+            </div>
+        </div>
+        <div class="player-group">
+        </div>
+    </section>
+</body>
+<script src="js/config.js"></script>
+<script src="js/questions.js"></script>
+<script src="js/dice.js"></script>
+<script src="js/board.js"></script>
+<script src="js/game.js"></script>
+<script src="js/main.js"></script>
+
+</html>

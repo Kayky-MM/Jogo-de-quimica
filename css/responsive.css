@@ -1,0 +1,177 @@
+@media (min-width: 426px) and (max-width:767px) {
+    .board-container {
+        max-width: 425px;
+        align-self: center;
+    }
+
+    .question-card {
+        font-size: 1.2em;
+    }
+
+    .check {
+        width: auto;
+    }
+}
+
+@media (min-width:768px) {
+    #game-screen.open {
+        display: grid;
+        grid-template-columns: 25px 425px 25px repeat(4, 1fr);
+        grid-template-rows: 10% 70px 1fr 1fr;
+        grid-template-areas:
+            'advice advice advice advice advice advice advice'
+            '. board . players players players players'
+            '. board . wrapper wrapper wrapper wrapper'
+            '. board . . . . .'
+        ;
+    }
+
+    p.advice {
+        grid-area: advice;
+    }
+
+    .board-container {
+        grid-area: board;
+        max-width: 425px;
+        height: auto;
+        max-height: none;
+    }
+
+    .wrapper {
+        grid-area: wrapper;
+        margin: 1em 0;
+        overflow: hidden;
+        margin: 50px 0;
+    }
+
+    .help {
+        width: 2em;
+        height: 2em;
+    }
+
+    .dice {
+        height: 100%;
+        width: auto;
+        aspect-ratio: 1 / 1;
+    }
+
+    .player-group {
+        grid-area: players;
+        display: flex;
+        flex-direction: row;
+        max-height: none;
+        height: auto;
+        justify-content: space-around;
+    }
+
+    .player-group .player-icons {
+        flex: 1 1;
+        max-width: 25%;
+    }
+
+    .question-card {
+        font-size: 1.2em;
+    }
+
+    .check {
+        width: auto;
+    }
+}
+
+@media (min-width: 1255px) {
+    .title{
+        margin-top: 10%;
+    }
+
+    #game-screen.open {
+        display: grid;
+        grid-template-columns: 25px 425px 25px repeat(4, 1fr);
+        grid-template-rows: 10% 140px 1fr 1fr;
+        grid-template-areas:
+            'advice advice advice advice advice advice advice'
+            '. board . players players players players'
+            '. board . wrapper wrapper wrapper wrapper'
+            '. board . . . . .'
+        ;
+    }
+
+    p.advice {
+        grid-area: advice;
+    }
+
+    .board-container {
+        grid-area: board;
+        max-width: 425px;
+        height: auto;
+        max-height: none;
+    }
+
+    .wrapper {
+        grid-area: wrapper;
+        margin: 1em 0;
+        overflow: hidden;
+        margin: 50px 0;
+    }
+
+    .help {
+        width: 2em;
+        height: 2em;
+    }
+
+    .dice {
+        height: 100%;
+        width: auto;
+        aspect-ratio: 1 / 1;
+    }
+
+    .player-group {
+        grid-area: players;
+        display: flex;
+        flex-direction: row;
+        max-height: none;
+        height: auto;
+        justify-content: space-around;
+    }
+
+    .player-group .player-icons {
+        flex: 1 1;
+        max-width: 25%;
+    }
+
+    .question-card {
+        font-size: 1.2em;
+    }
+
+    .check {
+        width: auto;
+    }
+}
+
+@media (min-width: 1700px) {
+    #game-screen.open {
+        display: grid;
+        grid-template-columns: 25px 425px 25px repeat(4, 1fr);
+        grid-template-rows: 10% 210px 1fr 1fr;
+        grid-template-areas:
+            'advice advice advice advice advice advice advice'
+            '. board . players players players players'
+            '. board . wrapper wrapper wrapper wrapper'
+            '. board . . . . .'
+        ;
+    }
+}
+
+@media (max-height: 500px) {
+    .player-icons .number-player {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-height: 600px) {
+    p.sentence {
+        font-size: clamp(0.9em, 1em, 1.5em);
+        text-align: left;
+        max-height: 40%;
+        overflow: auto;
+    }
+}
