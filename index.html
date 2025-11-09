@@ -7,6 +7,7 @@
     <title>Amare-soluções</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animation.css">
     <link rel="icon" href="favicon/favicon.ico" sizes="any">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-chrome-192x192.png">
@@ -15,9 +16,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
 
     <link rel="manifest" href="favicon/site.webmanifest">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
 <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
-
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 <body>
     <section id="initial-screen">
         <audio id="a-1" src="audio/theme.mp3" loop preload="auto"></audio>
@@ -40,6 +42,26 @@
                 <button selected="false">3</button>
                 <button selected="false">4</button>
             </div>
+        </div>
+        <div id="particles-container">
+            <div class="particles">K<sup>+</sup></div>
+            <div class="particles">Cl<sup>-</sup></div>
+            <div class="particles">Ca<sup>2+</sup></div>
+            <div class="particles">Cl<sup>-</sup></div>
+            <div class="particles">Na<sup>+</sup></div>
+            <div class="particles">Cl<sup>-</sup></div>
+            <div class="particles">Al3<sup>+</sup></div>
+            <div class="particles">PO<sub>4</sub><sup>3-</sup></div>
+            <div class="particles">Zn<sup>2+</sup></div>
+            <div class="particles">SO<sub>4</sub><sup>2-</sup></div>
+            <div class="particles">Pb<sup>4+</sup></div>
+            <div class="particles">O<sup>2-</sup></div>
+            <div class="particles">H<sup>+</sup></div>
+            <div class="particles">S<sup>2-</sup></div>
+            <div class="particles">NO<sub>2</sub><sup>-</sup></div>
+            <div class="particles">K<sup>+</sup></div>
+            <div class="particles">CO<sub>3</sub><sup>2-</sup></div>
+            <div class="particles">H<sup>+</sup></div>
         </div>
     </section>
     <section id="game-screen">
@@ -85,10 +107,9 @@
             </div>
             <div class="rule-explanation">
                 <h2>Casas Especiais</h2>
-                <p>Se você cair em uma <strong>casa escura</strong>, o jogo ativará um dos quatro efeitos especiais.
-                    Fique atento e
-                    tente memorizar o que cada casa faz, pois outros jogadores (e você novamente) podem cair nelas no
-                    futuro!</p>
+                <p>Se você cair em uma <strong>casa escura</strong>, o jogo mostrará um painel com quatro cartas especiais.
+                    Você deve escolher uma para ver que ação irá ocorrer. As ações das cartas <strong>não</strong> são fixas, elas mudam cada vez que um jogador cair numa casa escura.
+                Estas são as ações que podem ocorrer:</p>
                 <ul>
                     <li>
                         <h3>Avance uma casa</h3>
@@ -109,6 +130,57 @@
                 </ul>
             </div>
         </article>
+        <div class="dark-cell-choice">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="special-card back" data-action-name="">
+                        <h3></h3>
+                    </div>
+                    <div class="special-card front">
+                        <div class="ball b1"></div>
+                        <div class="ball b2"></div>
+                        <img src="img/atom.png" alt="átomo">
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="special-card back" data-action-name="">
+                        <h3></h3>
+                    </div>
+                    <div class="special-card front">
+                        <div class="ball b1"></div>
+                        <div class="ball b2"></div>
+                        <img src="img/atom.png" alt="átomo">
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="special-card back" data-action-name="">
+                        <h3></h3>
+                    </div>
+                    <div class="special-card front">
+                        <div class="ball b1"></div>
+                        <div class="ball b2"></div>
+                        <img src="img/atom.png" alt="átomo">
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="special-card back" data-action-name="">
+                        <h3></h3>
+                    </div>
+                    <div class="special-card front">
+                        <div class="ball b1"></div>
+                        <div class="ball b2"></div>
+                        <img src="img/atom.png" alt="átomo">
+                    </div>
+                </div>
+            </div>
+            <p>Escolha uma carta surpresa e veja o que acontece!</p>
+        </div>
         <p class="advice">Aviso inicial</p>
         <audio src="audio/jump.mp3" id="a-5" preload="auto"></audio>
         <audio src="audio/retroceed.mp3" id="a-6" preload="auto"></audio>
@@ -130,6 +202,7 @@
         </div>
     </section>
 </body>
+<script src="js/animation.js"></script>
 <script src="js/config.js"></script>
 <script src="js/questions.js"></script>
 <script src="js/dice.js"></script>

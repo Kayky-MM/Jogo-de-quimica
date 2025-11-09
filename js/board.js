@@ -64,7 +64,6 @@ function insertCells(squareNumber, board, chosenCells) {
         const cell = document.createElement('div')
         if (chosenCells.includes(i + 1)) {
             cell.classList.add('dark-cell')
-            surpriseCells.push(i + 1)
         }
         cell.classList.add('cell');
         if (i === 0) {
@@ -109,7 +108,6 @@ async function loadBoard(quantity = 2, squareNumber = 12) {
     insertCells(squareNumber, board, chosenCells);
     insertPlayers(quantity);
     board.style.setProperty('grid-template-areas', congifTemplateArea(squareNumber))
-    cardsMap = mapFunction()
     return true;
 }
 

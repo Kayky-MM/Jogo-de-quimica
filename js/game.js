@@ -55,6 +55,53 @@ function updateAvaible(question){
         }
 }
 
+function setSpecialCards(flipCards){
+    let pushedToEndCard = false
+    flipCards.forEach(card => {
+        let odd = random(1, 100)
+        const h3 = card.querySelector('h3')
+        const p = card.querySelector('p')
+        if(!pushedToEndCard && odd <= 20){
+            card.setAttribute('data-action-name', 'goToTheEnd')
+            pushedToEndCard = true
+            h3.innerText = `Volte pro começo!`
+            return;
+        }
+        odd = random(1, 100)
+        if(odd <= 33){
+            card.setAttribute('data-action-name', 'oneMoreJump')
+            h3.innerText = `Avance uma casa!`
+        }else if(odd <= 64){
+            card.setAttribute('data-action-name', 'goBack')
+            h3.innerText = `Volte uma casa!`
+        }else{
+            card.setAttribute('data-action-name', 'disablePlayer')
+            h3. innerText = `Não jogue na próxima rodada!`
+        }
+    });
+}
+
+async function cardChoice(flipCards){
+    return new Promise(resolve => {
+        const cardClickHandler = e => {
+            const chosenCard = e.currentTarget;
+            const inner = chosenCard.querySelector('.flip-card-inner')
+            const cardName = chosenCard.getAttribute('data-action-name')
+            flipCards.forEach(c => c.removeEventListener('click', cardClickHandler))
+            chosenCard.addEventListener('animationend', ()=> {
+                inner.classList.add('flipped')
+                setTimeout(()=>{
+                    inner.classList.remove('flipped')
+                }, 1500)
+                resolve(cardName)
+            }, {once: true})
+            chosenCard.querySelector('.flip-card-inner').classList.add('flipping')
+        }
+
+        flipCards.forEach(card => card.addEventListener('click', cardClickHandler, {once: true}))
+    })
+}
+
 async function game(quantity = 2) {
     const cells = Array.from(document.querySelectorAll('.cell')).sort((c1, c2) => {
         if (c1.style.gridArea === 'ceu') {
@@ -71,6 +118,10 @@ async function game(quantity = 2) {
     const disables = new Set();
     const divPlayers = Array.from(document.querySelectorAll('.player-icons')).sort((a, b) => Number(a.id[a.id.length - 1]) - Number(b.id[b.id.length - 1]));
     const advice = document.querySelector('.advice');
+    const darkChoice = document.querySelector('.dark-cell-choice')
+    const flipCards = Array.from(document.querySelectorAll('.flip-card'))
+
+
     while (!winner) {
         const playerIcon = document.getElementById(`p-icon-${turn}`);
         const currentPlayer = divPlayers[turn - 1]
@@ -120,21 +171,15 @@ async function game(quantity = 2) {
             audios[4].play().catch(audioError)
             if (playerIcon.parentElement.classList.contains('dark-cell')) {
                 let again = true;
-                let beforeCell = null;
                 while (again && playerIcon.parentElement.classList.contains('dark-cell')) {
-                    advice.textContent = `Jogador ${turn} caiu numa casa escura! Vamos ver o que ele deve fazer...`
-                    await sleep(2000)
-                    let currentCell = Number(playerIcon.parentElement.querySelector('.span-number').textContent.trim());
-                    const cardToExecuteName = cardsMap.get(currentCell);
-                    if (beforeCell === 'goBack' && cardToExecuteName === 'oneMoreJump') {
-                        break;
-                    }
-                    if (cardToExecuteName && specialCards[cardToExecuteName]) {
-                        again = specialCards[cardToExecuteName]({ turn, cells, disables, advice, divPlayers });
-                        beforeCell = cardToExecuteName;
-                    } else {
-                        again = false;
-                    }
+                    advice.textContent = `Jogador ${turn} caiu numa casa escura! Vamos ver o que ele irá fazer...`
+                    setSpecialCards(flipCards)
+                    darkChoice.classList.add('appear')
+                    const cardChosenName = await cardChoice(flipCards)
+                    await sleep(2000);
+                    darkChoice.classList.remove('appear')
+                    again = specialCards[cardChosenName]({turn, cells, disables, advice, divPlayers})
+
                     await sleep(2000);
                 }
             }

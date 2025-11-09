@@ -1,0 +1,172 @@
+.title, .start, .c-quantity{
+    z-index: 2;
+}
+
+.particles {
+    position: absolute;
+    color: white;
+    border-radius: 50%;
+    opacity: 0.9;
+    font-size: 15px;
+    animation: rotating 10s linear infinite;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.particles:nth-child(1){
+    background-color: brown;
+    box-shadow: 0 0 3px brown;
+    top: 50%;
+    left: 30%; 
+}
+
+.particles:nth-child(2){
+    background-color: green;
+    box-shadow: 0 0 3px green;
+    top: 50%;
+    left: 30%; }
+
+.particles:nth-child(3){
+    background-color: red;
+    box-shadow: 0 0 3px red; 
+    top: 50%;
+    left: 75%;
+    width: 45px
+}
+
+
+.particles:nth-child(4){
+    background-color: green;
+    box-shadow: 0 0 3px green; 
+    top: 50%;
+    left: 75%;
+    }
+
+.particles:nth-child(5){
+    background-color: blue;
+    box-shadow: 0 0 3px blue; 
+    top: 80%;
+    left: 25%;
+}
+
+.particles:nth-child(6){
+    background-color: green;
+    box-shadow: 0 0 3px green; 
+    top: 80%;
+    left: 25%;
+    }
+
+.particles:nth-child(7){
+    background-color: gray;
+    box-shadow: 0 0 3px gray; 
+    top: 80%;
+    left: 80%;
+    width: 40px;
+}
+
+.particles:nth-child(8){
+    background-color: violet;
+    box-shadow: 0 0 3px violet; 
+    top: 80%;
+    left: 80%;
+    width: 50px;
+}
+
+.particles:nth-child(9){
+    background-color: greenyellow;
+    box-shadow: 0 0 3px greenyellow; 
+    top: 70%;
+    left: 50%;
+    width: 45px;
+}
+
+.particles:nth-child(10){
+    background-color: orange;
+    box-shadow: 0 0 3px orange; 
+    top: 70%;
+    left: 50%;
+    font-size: 13px;
+    width: 50px;
+}
+
+.particles:nth-child(11){
+    background-color: rgb(46, 111, 16);
+    box-shadow: 0 0 3px rgb(46, 111, 16);
+    top: 40%;
+    left: 20%; 
+    width: 45px;
+}
+
+.particles:nth-child(12){
+    background-color: cyan;
+    box-shadow: 0 0 3px cyan;
+    top: 41%;
+    left: 21%; 
+    }
+
+.particles:nth-child(13){
+    background-color: blue;
+    box-shadow: 0 0 3px blue; 
+    top: 80%;
+    left: 15%;
+}
+
+.particles:nth-child(14){
+    background-color: green;
+    box-shadow: 0 0 3px green; 
+    top: 82%;
+    left: 18%;
+}
+
+
+.particles:nth-child(15){
+    background-color: blue;
+    box-shadow: 0 0 3px blue; 
+    top: 90%;
+    left: 75%;
+    width: 45px;
+    font-size: 13px;
+}
+
+.particles:nth-child(16){
+    background-color: green;
+    box-shadow: 0 0 3px green; 
+    top: 88%;
+    left: 80%;
+}
+
+.particles:nth-child(17){
+    background-color: gray;
+    box-shadow: 0 0 3px gray; 
+    top: 50%;
+    left: 80%;
+    font-size: 13px;
+    width: 50px;
+}
+
+.particles:nth-child(18){
+    background-color: violet;
+    box-shadow: 0 0 3px violet; 
+    top: 55%;
+    left: 85%;
+}
+
+@keyframes rotating {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes popping {
+    from{
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+    to{
+        opacity: 0;
+        transform: scale(1.75, 1.75);
+    }
+}
