@@ -217,6 +217,16 @@ p.sentence {
     color: #555;
 }
 
+.rule-explanation ul li math {
+    font-size: 1.5em; 
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.rule-explanation ul li math mrow {
+    display: inline-block; 
+}
+
 .article-help button{
     position: fixed;
     width: 2em;
@@ -261,7 +271,7 @@ p.sentence {
     top: -100%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
+    width: min(400px, 80%);
     height: 75%;
     border: 5px solid black;
     padding: 0.5em;
