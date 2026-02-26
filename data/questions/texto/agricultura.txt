@@ -1,0 +1,150 @@
+1) Por que os agricultores precisam saber se o solo está ácido?
+Resposta: Para garantir a eficiência dos produtos e qualidade máxima de nutrientes para as plantas
+
+2) Cite 4 exemplos de produtos que você vê no seu dia a dia alcalinos.
+Resposta: sabonete, leite, alface, água sanitária
+
+3) Qual a diferença entre um solo ácido e básico?
+Resposta: solo ácido pH menor que 7, básico maior que 7.
+
+4) O calcário é usado para corrigir que problemas do solo?
+Resposta: Acidez
+
+5) Por que a escala de pH é considerada logarítmica?
+Resposta: Porque cada unidade de variação corresponde a uma mudança de dez vezes na concentração de íons H+
+
+6) Você aplicou calcário para corrigir a acidez do solo mas exagerou na quantidade; após alguns meses o pH é 8.5 e as plantas apresentam folhas amareladas. Quais nutrientes costumam ter a disponibilidade prejudicada nesse caso?
+Resposta: ferro, manganês, zinco
+
+7) Ao adicionar açúcar em um suco de limão muito azedo, a solução continua sendo ácida? Por que isso não altera significativamente o pH?
+Resposta: Sim, continua ácida porque o açúcar não neutraliza os íons H+ do ácido cítrico
+
+8) Como se chama o processo químico de adição de calcário ao solo para elevar o pH?
+Resposta: Calagem
+
+9) Qual o nome do indicador natural presente no repolho roxo que muda de cor conforme o pH?
+Resposta: Antocianina
+
+10) Se um solo apresenta pH 4, ele é quantas vezes mais ácido que um solo com pH 6?
+Resposta: 100 vezes
+
+11) Qual a principal função da calagem em solos destinados ao plantio?
+Resposta: Neutralizar a acidez do solo e fornecer cálcio e magnésio para as plantas
+
+12) Se um solo possui pH 7, como ele é classificado quanto à sua acidez?
+Resposta: Neutro
+
+13) O que acontece com a concentração de íons H+ quando o pH de uma solução aumenta?
+Resposta: A concentração de íons H+ diminui
+
+14) Cite 3 indicadores de pH que podem ser usados em um laboratório escolar.
+Resposta: Fenolftaleína, papel tornassol, azul de bromotimol
+
+15) Por que solos muito ácidos dificultam o crescimento das raízes?
+Resposta: Devido à maior toxicidade de elementos como o Alumínio (Al3+)
+
+16) Qual o valor de pH aproximado do suco gástrico no estômago humano?
+Resposta: Entre 1,5 e 2,0
+
+17) O que é uma solução tampão?
+Resposta: Uma solução que resiste a variações bruscas de pH quando ácidos ou bases são adicionados
+
+18) Se o pH de uma amostra de chuva é 4.5, ela é considerada uma chuva ácida? Justifique.
+Resposta: Sim, pois o pH está abaixo de 5,6, que é o valor da chuva natural levemente ácida
+
+19) Qual o principal componente químico do calcário agrícola?
+Resposta: Carbonato de Cálcio
+
+20) Em uma escala de 0 a 14, qual faixa representa substâncias alcalinas?
+Resposta: Entre 7 e 14
+
+21) O que indica um valor de pOH igual a 12 em uma solução aquosa?
+Resposta: Indica que a solução é muito ácida
+
+22) Qual a relação matemática básica entre pH e pOH em uma solução a 25°C?
+Resposta: pH + pOH = 14
+
+23) Por que a água pura tem pH 7?
+Resposta: Porque as concentrações de íons H+ e OH- são iguais
+
+24) Qual a cor que o papel tornassol azul fica ao entrar em contato com uma substância ácida?
+Resposta: vermelho
+
+25) Cite dois nutrientes cuja disponibilidade aumenta em solos com pH mais ácido (abaixo de 5.5).
+Resposta: Ferro, Alumínio
+
+26) Além do calcário, que outro material comum pode ser usado para neutralizar a acidez em pequenas hortas domésticas?
+Resposta: Cinzas de madeira
+
+27) Como é chamada a reação química entre um ácido e uma base?
+Resposta: Reação de neutralização
+
+28) O leite de magnésia é frequentemente usado para combater a azia. Qual a sua característica química?
+Resposta: É uma base fraca que neutraliza o excesso de ácido clorídrico no estômago
+
+29) Que processo natural deixa o solo da região do Cerrado brasileiro naturalmente ácido?
+Resposta: Lixiviação
+
+30) Se você testar o pH de um refrigerante de cola, qual resultado de pH espera encontrar?
+Resposta: ácido
+
+31) O que acontece com a solubilidade do alumínio em solos com pH abaixo de 5,0?
+Resposta: Aumenta
+
+32) Cite o nome de um ácido orgânico presente naturalmente nas frutas cítricas.
+Resposta: Ácido cítrico
+
+33) Qual substância dissolvida na atmosfera deixa o pH da água da chuva naturalmente levemente ácido (cerca de 5,6)?
+Resposta: Gás carbônico
+
+34) Qual a cor da fenolftaleína em contato com uma solução de pH 10?
+Resposta: Rosa
+
+35) O que é a escala de pH na prática?
+Resposta: Uma medida da concentração de íons hidrogênio (H+) em uma solução
+
+36) O que acontece com o pH do solo com o excesso de sódio?
+Resposta: Aumenta
+
+37) Qual a principal diferença entre um ácido forte e um ácido fraco?
+Resposta: O ácido forte se ioniza completamente em água, enquanto o fraco se ioniza apenas parcialmente
+
+38) Por que é perigoso misturar água sanitária (base) com produtos de limpeza ácidos?
+Resposta: Porque pode liberar gás cloro, que é altamente tóxico
+
+39) O que representa o termo 'p' na sigla pH?
+Resposta: Potencial
+
+40) Qual a função do magnésio fornecido pelo calcário dolomítico às plantas?
+Resposta: É o átomo central da molécula de clorofila, essencial para a fotossíntese
+
+41) Qual a cor que o papel tornassol vermelho fica ao entrar em contato com uma substância básica?
+Resposta: azul
+
+42) Qual a diferença entre calagem e gessagem?
+Resposta: A calagem corrige a acidez da camada superficial, a gessagem fornece cálcio e enxofre em profundidade sem alterar o pH
+
+43) Como o pH do solo pode influenciar a cor das flores da planta Hortênsia?
+Resposta: Em solos ácidos as flores são azuis e em solos alcalinos são rosas
+
+44) Cite um exemplo de base forte utilizada na fabricação de sabões.
+Resposta: Soda cáustica
+
+45) O que é o índice SMP em uma análise de solo?
+Resposta: Um índice usado para determinar a quantidade de calcário necessária para atingir um pH desejado
+
+46) O sangue humano é levemente ácido, básico ou neutro?
+Resposta: básico
+
+47) Por que o excesso de adubos nitrogenados pode acidificar o solo com o tempo?
+Resposta: Devido ao processo de nitrificação que libera íons H+ no solo
+
+48) Como o pH não possui uma unidade de medida dizemos que ele é uma?
+Resposta: Grandeza admensional
+
+49) Os extremos de pH (muito baixo ou muito alto), aumentam ou diminuem a atividade dos microrganismos decompositores no solo?
+Resposta: Aumentam
+
+50) O que acontece com o pH de uma solução ácida quando ela é diluída em água pura?
+Resposta: Aumenta
+

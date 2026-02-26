@@ -1,0 +1,253 @@
+[
+  {
+    "sentence": "1) Por que os agricultores precisam saber se o solo está ácido?",
+    "answer": "Para garantir a eficiência dos produtos e qualidade máxima de nutrientes para as plantas",
+    "answerFormat": "frase explicativa"
+  },
+  {
+    "sentence": "2) Cite 4 exemplos de produtos que você vê no seu dia a dia alcalinos.",
+    "answer": "sabonete, leite, alface, água sanitária",
+    "answerFormat": "palavras separadas por vírgula"
+  },
+  {
+    "sentence": "3) Qual a diferença entre um solo ácido e básico?",
+    "answer": "solo ácido pH menor que 7, básico maior que 7.",
+    "answerFormat": "duas frases separadas por vírgula"
+  },
+  {
+    "sentence": "4) O calcário é usado para corrigir que problemas do solo?",
+    "answer": "Acidez",
+    "answerFormat": "Uma palavra"
+  },
+  {
+    "sentence": "5) Por que a escala de pH é considerada logarítmica?",
+    "answer": "Porque cada unidade de variação corresponde a uma mudança de dez vezes na concentração de íons H+",
+    "answerFormat": "frase explicativa"
+  },
+  {
+    "sentence": "6) Você aplicou calcário para corrigir a acidez do solo mas exagerou na quantidade; após alguns meses o pH é 8.5 e as plantas apresentam folhas amareladas. Quais nutrientes costumam ter a disponibilidade prejudicada nesse caso?",
+    "answer": "ferro, manganês, zinco",
+    "answerFormat": "palavras separadas por vírgula"
+  },
+  {
+    "sentence": "7) Ao adicionar açúcar em um suco de limão muito azedo, a solução continua sendo ácida? Por que isso não altera significativamente o pH?",
+    "answer": "Sim, continua ácida porque o açúcar não neutraliza os íons H+ do ácido cítrico",
+    "answerFormat": "Sim ou não seguido de explicação"
+  },
+  {
+    "sentence": "8) Como se chama o processo químico de adição de calcário ao solo para elevar o pH?",
+    "answer": "Calagem",
+    "answerFormat": "Uma palavra"
+  },
+  {
+    "sentence": "9) Qual o nome do indicador natural presente no repolho roxo que muda de cor conforme o pH?",
+    "answer": "Antocianina",
+    "answerFormat": "Uma palavra"
+  },
+  {
+    "sentence": "10) Se um solo apresenta pH 4, ele é quantas vezes mais ácido que um solo com pH 6?",
+    "answer": "100 vezes",
+    "answerFormat": "número seguido de palavra"
+  },
+  {
+    "sentence": "11) Qual a principal função da calagem em solos destinados ao plantio?",
+    "answer": "Neutralizar a acidez do solo e fornecer cálcio e magnésio para as plantas",
+    "answerFormat": "frase explicativa"
+  },
+  {
+    "sentence": "12) Se um solo possui pH 7, como ele é classificado quanto à sua acidez?",
+    "answer": "Neutro",
+    "answerFormat": "Uma palavra"
+  },
+  {
+    "sentence": "13) O que acontece com a concentração de íons H+ quando o pH de uma solução aumenta?",
+    "answer": "A concentração de íons H+ diminui",
+    "answerFormat": "frase curta"
+  },
+  {
+    "sentence": "14) Cite 3 indicadores de pH que podem ser usados em um laboratório escolar.",
+    "answer": "Fenolftaleína, papel tornassol, azul de bromotimol",
+    "answerFormat": "itens separados por vírgula"
+  },
+  {
+    "sentence": "15) Por que solos muito ácidos dificultam o crescimento das raízes?",
+    "answer": "Devido à maior toxicidade de elementos como o Alumínio (Al3+)",
+    "answerFormat": "frase explicativa"
+  },
+  {
+    "sentence": "16) Qual o valor de pH aproximado do suco gástrico no estômago humano?",
+    "answer": "Entre 1,5 e 2,0",
+    "answerFormat": "Entre x e y"
+  },
+  {
+    "sentence": "17) O que é uma solução tampão?",
+    "answer": "Uma solução que resiste a variações bruscas de pH quando ácidos ou bases são adicionados",
+    "answerFormat": "definição química"
+  },
+  {
+    "sentence": "18) Se o pH de uma amostra de chuva é 4.5, ela é considerada uma chuva ácida? Justifique.",
+    "answer": "Sim, pois o pH está abaixo de 5,6, que é o valor da chuva natural levemente ácida",
+    "answerFormat": "Sim ou não seguido de explicação"
+  },
+  {
+    "sentence": "19) Qual o principal componente químico do calcário agrícola?",
+    "answer": "Carbonato de Cálcio",
+    "answerFormat": "Três palavras"
+  },
+  {
+    "sentence": "20) Em uma escala de 0 a 14, qual faixa representa substâncias alcalinas?",
+    "answer": "Entre 7 e 14",
+    "answerFormat": "Entre x e y"
+  },
+  {
+    "sentence": "21) O que indica um valor de pOH igual a 12 em uma solução aquosa?",
+    "answer": "Indica que a solução é muito ácida",
+    "answerFormat": "frase explicativa"
+  },
+  {
+    "sentence": "22) Qual a relação matemática básica entre pH e pOH em uma solução a 25°C?",
+    "answer": "pH + pOH = 14",
+    "answerFormat": "equação simples"
+  },
+  {
+    "sentence": "23) Por que a água pura tem pH 7?",
+    "answer": "Porque as concentrações de íons H+ e OH- são iguais",
+    "answerFormat": "frase curta"
+  },
+  {
+    "sentence": "24) Qual a cor que o papel tornassol azul fica ao entrar em contato com uma substância ácida?",
+    "answer": "vermelho",
+    "answerFormat": "Uma palavra"
+  },
+  {
+    "sentence": "25) Cite dois nutrientes cuja disponibilidade aumenta em solos com pH mais ácido (abaixo de 5.5).",
+    "answer": "Ferro, Alumínio",
+    "answerFormat": "itens separados por vírgula"
+  },
+  {
+    "sentence": "26) Além do calcário, que outro material comum pode ser usado para neutralizar a acidez em pequenas hortas domésticas?",
+    "answer": "Cinzas de madeira",
+    "answerFormat": "Três palavras"
+  },
+  {
+    "sentence": "27) Como é chamada a reação química entre um ácido e uma base?",
+    "answer": "Reação de neutralização",
+    "answerFormat": "Três palavras"
+  },
+  {
+    "sentence": "28) O leite de magnésia é frequentemente usado para combater a azia. Qual a sua característica química?",
+    "answer": "É uma base fraca que neutraliza o excesso de ácido clorídrico no estômago",
+    "answerFormat": "frase explicativa"
+  },
+  {
+    "sentence": "29) Que processo natural deixa o solo da região do Cerrado brasileiro naturalmente ácido?",
+    "answer": "Lixiviação",
+    "answerFormat": "Uma palavra"
+  },
+  {
+    "sentence": "30) Se você testar o pH de um refrigerante de cola, qual resultado de pH espera encontrar?",
+    "answer": "ácido",
+    "answerFormat": "Uma palavra"
+  },
+  {
+    "sentence": "31) O que acontece com a solubilidade do alumínio em solos com pH abaixo de 5,0?",
+    "answer": "Aumenta",
+    "answerFormat": "Uma palavra"
+  },
+  {
+    "sentence": "32) Cite o nome de um ácido orgânico presente naturalmente nas frutas cítricas.",
+    "answer": "Ácido cítrico",
+    "answerFormat": "Duas palavras"
+  },
+  {
+    "sentence": "33) Qual substância dissolvida na atmosfera deixa o pH da água da chuva naturalmente levemente ácido (cerca de 5,6)?",
+    "answer": "Gás carbônico",
+    "answerFormat": "Duas palavras"
+  },
+  {
+    "sentence": "34) Qual a cor da fenolftaleína em contato com uma solução de pH 10?",
+    "answer": "Rosa",
+    "answerFormat": "Uma palavra"
+  },
+  {
+    "sentence": "35) O que é a escala de pH na prática?",
+    "answer": "Uma medida da concentração de íons hidrogênio (H+) em uma solução",
+    "answerFormat": "definição química"
+  },
+  {
+    "sentence": "36) O que acontece com o pH do solo com o excesso de sódio?",
+    "answer": "Aumenta",
+    "answerFormat": "Uma palavra"
+  },
+  {
+    "sentence": "37) Qual a principal diferença entre um ácido forte e um ácido fraco?",
+    "answer": "O ácido forte se ioniza completamente em água, enquanto o fraco se ioniza apenas parcialmente",
+    "answerFormat": "duas frases separadas por vírgula"
+  },
+  {
+    "sentence": "38) Por que é perigoso misturar água sanitária (base) com produtos de limpeza ácidos?",
+    "answer": "Porque pode liberar gás cloro, que é altamente tóxico",
+    "answerFormat": "frase explicativa"
+  },
+  {
+    "sentence": "39) O que representa o termo 'p' na sigla pH?",
+    "answer": "Potencial",
+    "answerFormat": "Uma palavra"
+  },
+  {
+    "sentence": "40) Qual a função do magnésio fornecido pelo calcário dolomítico às plantas?",
+    "answer": "É o átomo central da molécula de clorofila, essencial para a fotossíntese",
+    "answerFormat": "frase explicativa"
+  },
+  {
+    "sentence": "41) Qual a cor que o papel tornassol vermelho fica ao entrar em contato com uma substância básica?",
+    "answer": "azul",
+    "answerFormat": "Uma palavra"
+  },
+  {
+    "sentence": "42) Qual a diferença entre calagem e gessagem?",
+    "answer": "A calagem corrige a acidez da camada superficial, a gessagem fornece cálcio e enxofre em profundidade sem alterar o pH",
+    "answerFormat": "duas frases separadas por vírgula"
+  },
+  {
+    "sentence": "43) Como o pH do solo pode influenciar a cor das flores da planta Hortênsia?",
+    "answer": "Em solos ácidos as flores são azuis e em solos alcalinos são rosas",
+    "answerFormat": "frase explicativa"
+  },
+  {
+    "sentence": "44) Cite um exemplo de base forte utilizada na fabricação de sabões.",
+    "answer": "Soda cáustica",
+    "answerFormat": "Duas palavras"
+  },
+  {
+    "sentence": "45) O que é o índice SMP em uma análise de solo?",
+    "answer": "Um índice usado para determinar a quantidade de calcário necessária para atingir um pH desejado",
+    "answerFormat": "definição química"
+  },
+  {
+    "sentence": "46) O sangue humano é levemente ácido, básico ou neutro?",
+    "answer": "básico",
+    "answerFormat": "Uma palavra"
+  },
+  {
+    "sentence": "47) Por que o excesso de adubos nitrogenados pode acidificar o solo com o tempo?",
+    "answer": "Devido ao processo de nitrificação que libera íons H+ no solo",
+    "answerFormat": "frase explicativa"
+  },
+  {
+    "sentence": "48) Como o pH não possui uma unidade de medida dizemos que ele é uma?",
+    "answer": "Grandeza admensional",
+    "answerFormat": "Duas palavras"
+  },
+  {
+    "sentence": "49) Os extremos de pH (muito baixo ou muito alto), aumentam ou diminuem a atividade dos microrganismos decompositores no solo?",
+    "answer": "Aumentam",
+    "answerFormat": "Uma palavra"
+  },
+  {
+    "sentence": "50) O que acontece com o pH de uma solução ácida quando ela é diluída em água pura?",
+    "answer": "Aumenta",
+    "answerFormat": "Uma palavra"
+  }
+
+]

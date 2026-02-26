@@ -1,0 +1,252 @@
+[
+  {
+    "sentence": "1) Você dissolveu 40g de glicose (C6H12O6) em 400 ml de água. Qual é a concentração comum da solução em g/L?",
+    "answer": "100 g/L",
+    "answerFormat": "99 g/L"
+  },
+  {
+    "sentence": "2) Em uma solução de água e etanol, qual substância é considerada o solvente?",
+    "answer": "Água",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "3) Em uma solução com 2 mol de NaOH em 1 L de solução, qual é a concentração molar?",
+    "answer": "2 mol/L",
+    "answerFormat": "99 mol/L"
+  },
+  {
+    "sentence": "4) Você dissolveu 5g de soluto em 250ml de solução. Qual é a concentração comum em g/L?",
+    "answer": "20 g/L",
+    "answerFormat": "99 g/L"
+  },
+  {
+    "sentence": "5) Quando o soluto se dissolve completamente no solvente, formando uma mistura homogênea, que tipo de sistema é esse?",
+    "answer": "Solução",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "6) Uma solução foi preparada com 0,5 mol de KNO3 em 250 ml de água. Qual é a concentração molar?",
+    "answer": "2 mol/L",
+    "answerFormat": "99 mol/L"
+  },
+  {
+    "sentence": "7) O que acontece com a concentração de uma solução se evaporarmos parte da água?",
+    "answer": "Aumenta",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "8) Qual é o nome do processo de separar o soluto do solvente por evaporação e condensação?",
+    "answer": "Destilação",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "9) Na solução de vinagre (ácido acético em água), o ácido acético atua como soluto ou solvente?",
+    "answer": "Soluto",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "10) Você dissolveu 25g de soluto em 500ml de solução. Qual é a concentração comum em g/L?",
+    "answer": "50 g/L",
+    "answerFormat": "99 g/L"
+  },
+  {
+    "sentence": "11) Em uma solução aquosa de açúcar, qual é o papel da água?",
+    "answer": "Solvente",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "12) Você tem uma solução com concentração de 10g/L. Se preparar 2L dessa solução, quantos gramas de soluto serão necessários?",
+    "answer": "20 g",
+    "answerFormat": "99 g"
+  },
+  {
+    "sentence": "13) Como chamamos a substância que se dissolve em uma solução?",
+    "answer": "Soluto",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "14) Você tem 3 mol de HCl em 1,5L de solução. Qual é a concentração molar?",
+    "answer": "2 mol/L",
+    "answerFormat": "99 mol/L"
+  },
+  {
+    "sentence": "15) Em uma mistura de água com areia, o sistema formado é uma solução ou uma mistura heterogênea?",
+    "answer": "Mistura heterogênea",
+    "answerFormat": "duas palavras"
+  },
+  {
+    "sentence": "16) Ao aumentar a quantidade de soluto e manter o volume constante, o que acontece com a concentração da solução?",
+    "answer": "Aumenta",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "17) Quando uma solução não dissolve mais soluto significa dizer que ela está...?",
+    "answer": "Saturada",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "18) Se uma solução contém 0,25 mol de soluto em 500ml, qual é sua concentração molar?",
+    "answer": "0.5 mol/L",
+    "answerFormat": "9.9 mol/L"
+  },
+  {
+    "sentence": "19) Qual é o nome dado ao processo de preparar uma solução menos concentrada a partir de uma mais concentrada?",
+    "answer": "Diluição",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "20) Você dissolveu 60g de soluto em 300ml de solução. Qual é a concentração comum em g/L?",
+    "answer": "200 g/L",
+    "answerFormat": "99 g/L"
+  },
+  {
+    "sentence": "21) Em uma solução salina, o sal representa qual componente da mistura?",
+    "answer": "Soluto",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "22) Como chamamos a substância presente em maior quantidade em uma solução?",
+    "answer": "Solvente",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "23) Você preparou uma solução com 1 mol de NaCl em 250ml. Qual é a concentração molar?",
+    "answer": "4 mol/L",
+    "answerFormat": "99 mol/L"
+  },
+  {
+    "sentence": "24) Qual é a unidade usada para expressar concentração comum?",
+    "answer": "g/L",
+    "answerFormat": "unidade de concentração comum"
+  },
+  {
+    "sentence": "25) Você tem uma solução com 5mol/L. Se quiser prepará-la com 1L de água, quantos mols de soluto deve usar?",
+    "answer": "5 mol",
+    "answerFormat": "99 mol"
+  },
+  {
+    "sentence": "26) Em uma solução de 100ml contendo 10g de soluto, qual é a concentração comum em g/L?",
+    "answer": "100 g/L",
+    "answerFormat": "99 g/L"
+  },
+  {
+    "sentence": "27) Qual é o nome do processo no qual o soluto se espalha uniformemente no solvente?",
+    "answer": "Dissolução",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "28) Se a concentração de uma solução é 0,1mol/L e seu volume é 2L, quantos mols de soluto há?",
+    "answer": "0.2 mol",
+    "answerFormat": "9.9 mol"
+  },
+  {
+    "sentence": "29) Qual o outro nome que damos para a solução verdadeira?",
+    "answer": "Mistura homogênea",
+    "answerFormat": "duas palavras"
+  },
+  {
+    "sentence": "30) Você dissolveu 15g de KCl em 300ml de solução. Qual é a concentração comum em g/L?",
+    "answer": "50 g/L",
+    "answerFormat": "99 g/L"
+  },
+  {
+    "sentence": "31) Em uma solução de vinagre e água, qual é o soluto?",
+    "answer": "vinagre",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "32) Qual é a concentração molar de uma solução com 0,8 mol de soluto em 400ml de solução?",
+    "answer": "2 mol/L",
+    "answerFormat": "99 mol/L"
+  },
+  {
+    "sentence": "33) Quando duas substâncias se misturam formando uma única fase visível, temos uma...",
+    "answer": "Solução",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "34) Se uma solução contém 60g de soluto em 2L de solução, qual é a concentração comum?",
+    "answer": "30 g/L",
+    "answerFormat": "99 g/L"
+  },
+  {
+    "sentence": "35) Qual é o nome do processo usado para separar sólidos dissolvidos em líquidos por evaporação?",
+    "answer": "Evaporação",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "36) Você quer preparar 1L de uma solução 0,25mol/L de NaCl. Quantos mols de NaCl são necessários?",
+    "answer": "0.25 mol",
+    "answerFormat": "9.9 mol"
+  },
+  {
+    "sentence": "37) Em uma solução de água com álcool, o álcool é o...",
+    "answer": "Soluto",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "38) O que acontece com a concentração se aumentarmos o volume do solvente sem adicionar mais soluto?",
+    "answer": "Diminui",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "39) Qual é o nome do processo em que adicionamos mais solvente a uma solução para reduzir sua concentração?",
+    "answer": "Diluição",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "40) Você dissolveu 80g de soluto em 2L de solução. Qual é a concentração comum em g/L?",
+    "answer": "40 g/L",
+    "answerFormat": "99 g/L"
+  },
+  {
+    "sentence": "41) Uma solução foi preparada com 0,6 mol de HNO3 em 300 ml de água. Qual é a concentração molar?",
+    "answer": "2 mol/L",
+    "answerFormat": "99 mol/L"
+  },
+  {
+    "sentence": "42) Em uma solução de água com gás carbônico (CO2), qual é o soluto?",
+    "answer": "Gás carbônico",
+    "answerFormat": "duas palavras"
+  },
+  {
+    "sentence": "43) Qual é o nome da técnica usada para separar os componentes de uma mistura por diferença no ponto de ebulição?",
+    "answer": "Destilação",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "44) Você adicionou 5g de sal em 100 ml de água. Qual é a concentração comum em g/L?",
+    "answer": "50 g/L",
+    "answerFormat": "99 g/L"
+  },
+  {
+    "sentence": "45) Uma solução contém 1,5 mol de NaOH em 750 ml. Qual é a concentração molar?",
+    "answer": "2 mol/L",
+    "answerFormat": "99 mol/L"
+  },
+  {
+    "sentence": "46) Em uma solução açucarada, o açúcar representa qual componente?",
+    "answer": "Soluto",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "47) Quando uma mistura tem duas ou mais fases visíveis, ela é chamada de...",
+    "answer": "Mistura heterogênea",
+    "answerFormat": "duas palavras"
+  },
+  {
+    "sentence": "48) Qual é o nome da substância que dissolve outra em uma solução?",
+    "answer": "Solvente",
+    "answerFormat": "uma palavra"
+  },
+  {
+    "sentence": "49) Você deseja preparar 500 ml de uma solução 1 mol/L. Quantos mols de soluto são necessários?",
+    "answer": "0.5 mol",
+    "answerFormat": "9.9 mol"
+  },
+  {
+    "sentence": "50) Você dissolveu 12g de soluto em 400 ml de solução. Qual é a concentração comum em g/L?",
+    "answer": "30 g/L",
+    "answerFormat": "99 g/L"
+  }
+]

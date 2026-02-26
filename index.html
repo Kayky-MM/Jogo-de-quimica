@@ -4,28 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amare-soluções</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/animation.css">
-    <link rel="icon" href="favicon/favicon.ico" sizes="any">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="favicon/android-chrome-512x512.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <title>Salto químico</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="src/css/animation.css">
+    <link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
 
-    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
 <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 <body>
     <section id="initial-screen">
-        <audio id="a-1" src="audio/theme.mp3" loop preload="auto"></audio>
+        <audio id="a-1" src="assets/audio/theme.mp3" loop preload="auto"></audio>
         <div class="title">
-            <h1>Amare</h1>
-            <h1>Soluções</h1>
+            <h1>Salto</h1>
+            <h1>químico</h1>
         </div>
         <button class="start">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
@@ -35,6 +35,20 @@
             </svg>
 
         </button>
+        <div class="subject-selection">
+        <p>Escolha o assunto para jogar depois clique em play</p>
+        <form id="game-selection">
+            <div class="option-container">
+                <input type="radio" id="subject-1" name="tema" value="solucoes">
+                <label for="subject-1">Soluções Químicas</label>
+            </div>
+            
+            <div class="option-container">
+                <input type="radio" id="subject-2" name="tema" value="agricultura">
+                <label for="subject-2">Química na Agricultura</label>
+            </div>
+        </form>
+    </div>
         <div class="c-quantity">
             <h3>Quantos jogadores participarão?</h3>
             <div class="options">
@@ -66,14 +80,15 @@
     </section>
     <section id="game-screen">
         <div class="question-card">
-            <audio id="a-2" src="audio/question.mp3" loop preload="auto"></audio>
-            <audio id="a-3" src="audio/correct.mp3" preload="auto"></audio>
-            <audio id="a-4" src="audio/wrong.mp3" preload="auto"></audio>
+            <audio id="a-2" src="assets/audio/question.mp3" loop preload="auto"></audio>
+            <audio id="a-3" src="assets/audio/correct.mp3" preload="auto"></audio>
+            <audio id="a-4" src="assets/audio/wrong.mp3" preload="auto"></audio>
             <p class="sentence">
 
             </p>
             <form id="answer-form">
-                <input id="answer-area" placeholder="Digite a resposta aqui" type="text" autocomplete="off">
+                <!-- <input id="answer-area" placeholder="Digite a resposta aqui" type="text" autocomplete="off"> -->
+                <textarea name="answer-area" id="answer-area" rows="3" placeholder="Digite a resposta aqui" maxlength="120"></textarea>
                 <button type="submit" class="check">Responder</button>
             </form>
             <p class="feedback">
@@ -93,13 +108,14 @@
                 <p>Cada pergunta virá em um "card" que mostra o enunciado, um exemplo de como deve ser a resposta e o
                     campo para você digitar. Preste muita atenção nestes detalhes:</p>
                 <ul>
-                    <li>Para respostas de <strong>uma ou duas palavras</strong>, a <strong>ortografia correta é
-                            fundamental</strong>.</li>
+                    <li>Para respostas de <strong>poucas palavras</strong> ou <strong>frases</strong>, a <strong>ortografia correta é fundamental, inclua os acentos</strong>.</li>
                     <li>Se a resposta incluir uma <strong>unidade de medida</strong> (como "g/L", "mol", "mol/L"),
                         certifique-se de
                         deixar
                         um <strong>espaço entre o número e a unidade</strong> (exemplo: "2 mol/L", não "2mol/L").</li>
-                    <li><strong>Em caso de qualquer dúvida</strong> sobre o formato da resposta, <strong>fale
+                    <li>Use apenas um espaço entre as palavras. Evite espaços múltiplos pois eles podem invalidar a resposta.
+                    </li>
+                        <li><strong>Em caso de qualquer dúvida</strong> sobre o formato da resposta, <strong>fale
                             imediatamente com o
                             organizador(a)</strong> do jogo. Ele(a) poderá te ajudar a preencher o campo corretamente.
                     </li>
@@ -160,7 +176,7 @@
                     <div class="special-card front">
                         <div class="ball b1"></div>
                         <div class="ball b2"></div>
-                        <img src="img/atom.png" alt="átomo">
+                        <img src="assets/img/atom.png" alt="átomo">
                     </div>
                 </div>
             </div>
@@ -172,7 +188,7 @@
                     <div class="special-card front">
                         <div class="ball b1"></div>
                         <div class="ball b2"></div>
-                        <img src="img/atom.png" alt="átomo">
+                        <img src="assets/img/atom.png" alt="átomo">
                     </div>
                 </div>
             </div>
@@ -184,7 +200,7 @@
                     <div class="special-card front">
                         <div class="ball b1"></div>
                         <div class="ball b2"></div>
-                        <img src="img/atom.png" alt="átomo">
+                        <img src="assets/img/atom.png" alt="átomo">
                     </div>
                 </div>
             </div>
@@ -196,17 +212,17 @@
                     <div class="special-card front">
                         <div class="ball b1"></div>
                         <div class="ball b2"></div>
-                        <img src="img/atom.png" alt="átomo">
+                        <img src="assets/img/atom.png" alt="átomo">
                     </div>
                 </div>
             </div>
             <p>Escolha uma carta surpresa e veja o que acontece!</p>
         </div>
         <p class="advice">Aviso inicial</p>
-        <audio src="audio/jump.mp3" id="a-5" preload="auto"></audio>
-        <audio src="audio/retroceed.mp3" id="a-6" preload="auto"></audio>
-        <audio src="audio/backtilstart.mp3" id="a-7" preload="auto"></audio>
-        <audio src="audio/victory.mp3" id="a-8" preload="auto"></audio>
+        <audio src="assets/audio/jump.mp3" id="a-5" preload="auto"></audio>
+        <audio src="assets/audio/retroceed.mp3" id="a-6" preload="auto"></audio>
+        <audio src="assets/audio/backtilstart.mp3" id="a-7" preload="auto"></audio>
+        <audio src="assets/audio/victory.mp3" id="a-8" preload="auto"></audio>
         <div class="board-container">
             <div class="board"></div>
         </div>
@@ -223,12 +239,12 @@
         </div>
     </section>
 </body>
-<script src="js/animation.js"></script>
-<script src="js/config.js"></script>
-<script src="js/questions.js"></script>
-<script src="js/dice.js"></script>
-<script src="js/board.js"></script>
-<script src="js/game.js"></script>
-<script src="js/main.js"></script>
+<script src="src/js/animation.js"></script>
+<script src="src/js/config.js"></script>
+<script src="src/js/questions.js"></script>
+<script src="src/js/dice.js"></script>
+<script src="src/js/board.js"></script>
+<script src="src/js/game.js"></script>
+<script src="src/js/main.js"></script>
 
 </html>
