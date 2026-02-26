@@ -35,16 +35,31 @@ class Question {
     }
 }
 
+const loadingOverlay = document.getElementById('loading-overlay');
 let availableQuestions;
 
-async function loadQuestions(subjectForm){
+async function loadQuestions(subjectForm, subjectSelection){
     const formData = new FormData(subjectForm)
     const selection = formData.get('tema')
     if(!selection){
         return false
     }
-    const data = await fetch(`../../data/questions/json/${selection}.json`)
-    const datafile = await data.json()
-    availableQuestions = datafile.map(q => new Question(q.sentence, q.answer, q.answerFormat))
-    return true
+    subjectSelection.style.display = 'none'
+    loadingOverlay.style.display = 'flex'
+    try {
+        subjectForm.setAttribute('data-is-fetching', 'true')
+        const data = await fetch(`./data/questions/json/${selection}.json`)
+        await new Promise(resolve => setTimeout(resolve, 1000))
+        const datafile = await data.json()
+        availableQuestions = datafile.map(q => new Question(q.sentence, q.answer, q.answerFormat))
+        loadingOverlay.style.display = 'none';
+        subjectForm.setAttribute('data-is-fetching', 'false')
+        return true
+    } catch (error) {
+        subjectForm.setAttribute('data-is-fetching', 'false')
+        loadingOverlay.style.display = 'none';
+        subjectSelection.style.display = 'flex'
+        console.error('Não foi possível fetch', selection,'json', error)
+        return false
+    }
 }

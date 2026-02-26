@@ -133,10 +133,13 @@ async function startGame() {
     const subjectForm = document.getElementById('game-selection');
     const visibleQuantity = window.getComputedStyle(cQuantity).display !== 'none',
     visibleForm = window.getComputedStyle(subjectSelection).display !== 'none';
+    if(subjectForm.getAttribute('data-is-fetching') === 'true'){
+        return
+    }
     if (!visibleForm && !visibleQuantity) {
         subjectSelection.style.display = 'flex'
     }else if(visibleForm){
-        const loaded = await loadQuestions(subjectForm)
+        const loaded = await loadQuestions(subjectForm, subjectSelection)
         if(!loaded){
             return alert('Selecione o assunto antes de prosseguir')
         }

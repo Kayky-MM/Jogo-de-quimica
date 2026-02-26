@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/responsive.css">
     <link rel="stylesheet" href="src/css/animation.css">
+    <link rel="stylesheet" href="src/css/load.css">
     <link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
@@ -37,7 +38,7 @@
         </button>
         <div class="subject-selection">
         <p>Escolha o assunto para jogar depois clique em play</p>
-        <form id="game-selection">
+        <form id="game-selection" data-is-fetching="false">
             <div class="option-container">
                 <input type="radio" id="subject-1" name="tema" value="solucoes">
                 <label for="subject-1">Soluções Químicas</label>
@@ -49,6 +50,15 @@
             </div>
         </form>
     </div>
+    <div id="loading-overlay" style="display: none;">
+    <div class="atom">
+        <div class="electron"></div>
+        <div class="electron"></div>
+        <div class="electron"></div>
+        <div class="nucleus"></div>
+    </div>
+    <p>Misturando reagentes...</p>
+</div>
         <div class="c-quantity">
             <h3>Quantos jogadores participarão?</h3>
             <div class="options">

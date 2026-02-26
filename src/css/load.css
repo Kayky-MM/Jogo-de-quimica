@@ -1,0 +1,56 @@
+#loading-overlay {
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    color: white;
+    font-family: "Galindo", fantasy;
+}
+
+.atom {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.nucleus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background: #ffeb3b;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 15px #ffeb3b;
+}
+
+.electron {
+    --rotate-z: 0deg;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #00e5ff;
+    border-radius: 50%;
+    animation: atom-rotate 2s linear infinite;
+}
+
+.electron:nth-child(1) { transform: rotateX(70deg) rotateY(20deg); --rotate-x: -70deg; --rotate-y: 20deg; }
+.electron:nth-child(2) { transform: rotateX(70deg) rotateY(140deg); animation-delay: -0.5s; --rotate-x: 70deg; --rotate-y: 140deg; }
+.electron:nth-child(3) { transform: rotateX(70deg) rotateY(260deg); animation-delay: -1s; --rotate-x: 70deg; --rotate-y: 260deg; }
+
+@keyframes atom-rotate {
+    from {
+        transform: rotateX(var(--rotate-x)) rotateY(var(--rotate-y)) rotateZ(var(--rotate-z));
+    }
+    to {
+        transform: rotateX(calc(var(--rotate-x) + 360deg )) rotateY(calc(var(--rotate-y) + 360deg)) rotateZ(calc(var(--rotate-z) + 360deg));
+    }
+}
